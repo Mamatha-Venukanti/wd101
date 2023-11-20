@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #registrationForm {
+    margin-bottom: 40px;
+    background-color: blanchedalmond;
+    width: 200px;
+    text-align: center;
+    
+  }
+  
+ .details {
+    display: block;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: rgb(234, 146, 32);
+  }
+  
+  #userTable {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
