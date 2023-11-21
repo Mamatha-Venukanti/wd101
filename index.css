@@ -1,32 +1,35 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: lightblue;
+    text-align: center;
+    background-color:lightblue ;
   }
   
   h1 {
-    text-align: center;
+    margin-top: 20px;
   }
   
-  #registrationForm {
-    margin-bottom: 40px;
-    background-color: blanchedalmond;
-    width: 200px;
-    text-align: center;
-    
+  form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: bisque;
   }
   
- .details {
+  form label,
+  form input,
+  form button,
+  form checkbox {
     display: block;
+    margin-bottom: 10px;
   }
   
-  button {
-    padding: 10px;
-    background-color: rgb(234, 146, 32);
-  }
-  
-  #userTable {
+  table {
     border-collapse: collapse;
-    width: 100%;
+    width: 80%;
+    margin: 20px auto;
   }
   
   th, td {
