@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
   
       if (age < 18 || age > 55) {
-        alert('Age must be b/w 18 and 55.');
+        alert('Age must be between 18 and 55.');
         return;
       }
       const newRow = tableBody.insertRow();
